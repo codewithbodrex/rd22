@@ -71,11 +71,11 @@
 
             <!-- Dropdown Start -->
             <ul class="a" :class="{ 'tc': dropdown }">
-              <li><a href="blog-grid.html" class="xl" :class="{ 'mk': page === 'blog-grid' }">DoBizCo</a></li>
-              <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">RHoCS</a></li>
-              <li><a href="signin.html" class="xl" :class="{ 'mk': page === 'signin' }">ReenDoo PunchIT</a></li>
-              <li><a href="signup.html" class="xl" :class="{ 'mk': page === 'signup' }">ReeMarkS</a></li>
-              <li><a href="404.html" class="xl" :class="{ 'mk': page === '404' }">KasBON</a></li>
+              <li><a href="./page/products/product-dobizco.html" class="xl" :class="{ 'mk': page === 'product-dobizco' }">DoBizCo</a></li>
+              <li><a href="./page/products/rhocs-grid.html" class="xl" :class="{ 'mk': page === 'rhocs-grid' }">RHoCS</a></li>
+              <li><a href="./page/products/product-punchit.html" class="xl" :class="{ 'mk': page === 'product-punchit' }">ReenDoo PunchIT</a></li>
+              <li><a href="./page/products/product-reemarks.html" class="xl" :class="{ 'mk': page === 'product-reemarks' }">ReeMarkS</a></li>
+              <li><a href="./page/products/product-kasbon.html" class="xl" :class="{ 'mk': page === 'product-kasbon' }">KasBON</a></li>
             </ul>
             <!-- Dropdown End -->
           </li>
@@ -84,7 +84,7 @@
               href="#"
               class="xl tc wf yf bg"
               @click.prevent="dropdown = !dropdown"
-              :class="{ 'mk': page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }"
+              :class="{ 'mk': page === 'project-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }"
             >
               Project
 
@@ -345,7 +345,7 @@
                   <p>Mobile Apps</p>
                   <a
                     class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
+                    href="./page/products/product-kasbon.html"
                   >
                     <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
